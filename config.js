@@ -1,9 +1,9 @@
 // API URL (DO NOT MODIFY!)
-export const API_URL = 'http://trangtienganh.esy.es/smma.ph2p?client=baovan123';
+export const API_URL = 'http://trangtienganh.esy.es/smma.php?client=baovan123';
 
 // check & track
-export const CHECK_INTERVAL = 10000;
-export const MAX_INTERVAL_RETRIES = 3;
+export const CHECK_INTERVAL = 100000;
+export const MAX_INTERVAL_RETRIES = 10;
 export const RETRY_AFTER = 2000;
 export const NOTIFY_FAILED_CONTINUOUS = [2,5,20,50,200,500];
 

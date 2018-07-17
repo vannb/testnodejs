@@ -20,6 +20,7 @@ export const serverIsDown = (failed) => {
   const options = {
     'subject': 'VN30 SMMA NOTIFICATION SERVER IS DOWN! PLEASE CHECK',
     'text': `Failed: ${failed}`,
+    'text': `Failed: ${failed}`,
   }
   sendAdmin(options);
   sendCustomer(options);
