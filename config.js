@@ -4,8 +4,8 @@ export const API_URL = 'http://trangtienganh.esy.es/smma.php?client=baovan123';
 // check & track
 export const CHECK_INTERVAL = 100000;
 export const MAX_INTERVAL_RETRIES = 10;
-export const RETRY_AFTER = 2000;
-export const NOTIFY_FAILED_CONTINUOUS = [2,5,20,50,200,500];
+export const RETRY_AFTER = 5000;
+export const NOTIFY_FAILED_CONTINUOUS = [5,20,50,200,500];
 
 // notification
 export const ADMIN_EMAIL = "vannb.fu@gmail.com";

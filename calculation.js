@@ -13,3 +13,11 @@ export const inRange40 = (result) => {
     return null;
   }
 }
+
+export const inRange2 = (result) => {
+  try {
+    return ((Math.abs(result.sma50 - result.sma7) - 2) <= 0);
+  } catch(e){
+    return null;
+  }
+}

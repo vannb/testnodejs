@@ -44,3 +44,13 @@ export const exitRange40 = (result) => {
   sendAdmin(options);
   sendCustomer(options);
 }
+
+export const enterRange2 = (result) => {
+  const options = {
+    'subject': 'Enter RANGE 2 NOTIFICATION',
+    'text': `Current value: SMMA50: ${result.sma50}, SMMA7:${result.sma7}.`,
+    'html': `<p>Current value:</p><p>SMMA50: ${result.sma50}</p><p>SMMA7:${result.sma7}</p>`
+  }
+  sendAdmin(options);
+  sendCustomer(options);
+}
