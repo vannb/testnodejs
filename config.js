@@ -8,8 +8,8 @@ export const RETRY_AFTER = 5000;
 export const NOTIFY_FAILED_CONTINUOUS = [5,20,50,200,500];
 
 // notification
-export const ADMIN_EMAIL = "vannb.fu@gmail.com";
-export const CUSTOMER_EMAIL = "baovan1993@gmail.com";
+export const ADMIN_EMAIL = "baovan1993@gmail.com";
+export const CUSTOMER_EMAIL = "ckphaisinh2697@gmail.com";
 
 // email configuration
 export const EMAIL_FROM = '"VN30 SMMA NOTIFICATION 👻" <vn30smmanotification@gmail.com>'
