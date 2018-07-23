@@ -16,9 +16,10 @@ export const check = async (retries = 0) => {
         Notify.cross(result);
       }
 
-      if (!inRange2(oldResult) && inRange2(result)) {
-        Notify.enterRange2(result);
-      }
+      // if (!inRange2(oldResult) && inRange2(result)) {
+      //   Notify.enterRange2(result);
+      // }
+
       if (!inRange3(oldResult) && inRange3(result)) {
         Notify.enterRange3(result);
       }
