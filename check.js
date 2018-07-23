@@ -1,7 +1,7 @@
 import request from 'request-promise-native';
 
 import * as CONFIG from './config';
-import { minus, inRange40, inRange2 } from './calculation';
+import { minus, inRange40, inRange2, inRange3 } from './calculation';
 import * as Notify from './send-notification';
 
 let oldResult = null;
@@ -18,6 +18,9 @@ export const check = async (retries = 0) => {
 
       if (!inRange2(oldResult) && inRange2(result)) {
         Notify.enterRange2(result);
+      }
+      if (!inRange3(oldResult) && inRange3(result)) {
+        Notify.enterRange3(result);
       }
 
       if (inRange40(oldResult) && !inRange40(result)) {
