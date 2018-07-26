@@ -17,4 +17,5 @@ export const EMAIL_USER = 'vn30smmanotification';
 export const EMAIL_PASS = '123@123a';
 
 // Sendgrid api key
-export const SENDGRID_API_KEY = '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';
+export const SENDGRID_API_KEY1 = `SG.IiAkVQ52TMi7pwb-Abhgqw.` 
+const SENDGRID_API_KEY2 = `vUpVDMxQJ1C3rleV7e5lSTEvHTCIAi8NDXSWuTpeMSM`;
