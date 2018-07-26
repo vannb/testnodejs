@@ -16,6 +16,7 @@ let defaultOption = {
   subject: 'VN30 NOTIFICATION DEFAULT TITLE', // Subject line
   text: 'VN30 NOTIFICATION DEFAULT MESSAGE', // plain text body
 };
+
 const send = (option) => {
   const transporter = initMailer();
   const sendOption = _.pick(_.defaults(option, defaultOption),['from', 'to', 'subject', 'text', 'html']);

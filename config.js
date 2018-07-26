@@ -15,3 +15,6 @@ export const CUSTOMER_EMAIL = "ckphaisinh2697@gmail.com";
 export const EMAIL_FROM = '"VN30 SMMA NOTIFICATION 👻" <vn30smmanotification@gmail.com>'
 export const EMAIL_USER = 'vn30smmanotification';
 export const EMAIL_PASS = '123@123a';
+
+// Sendgrid api key
+export const SENDGRID_API_KEY = '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';
